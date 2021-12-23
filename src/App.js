@@ -41,8 +41,7 @@ export default function App() {
         <img
           id="bigimage"
           src={bigImage}
-          alt="city"
-          images={images}
+          alt={bigImage}
           handleClick={handleClick}
         />
         {/* THE SRC IMAGE URL SHOULD BE SET TO THE VALUE THAT IS STORED IN bigImage */}
